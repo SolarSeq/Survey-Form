@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    <title>Sushi Catering</title>
+</head>
+<body>
+    <div class="intro">
+               <h1 id="title">Sushi-Me</h1>
+               <p id="description">The BULK order Sushi place!</p>
+    </div>
+    <div class="main">
+        <form id="survey-form">
+            <div class="form-head">
+
+                <div class="clipart">
+                    <p class="ft">Sushi</p>
+                    <img src ="sushipiece.png" alt="Drawing of a Sushi roll." id="clipart">
+                    <p class="ft">Me</p>
+               </div>
+               <div class="slogan">
+                   <p class="you">We cater for you!</p>
+               </div>
+            </div>
+
+            <div class="personal">
+                   <div class="name">
+                           <label for "name" id="name-label">Name :</label>
+                           <input id="name" type="text" required placeholder="Enter Name" >
+                     </div>
+
+
+                   <div class="email">
+                           <label for "email" id="email-label">Email:</label>
+                           <input id="email" type="email" placeholder="myemail@example.com" required>
+                    </div>
+
+                   <div class="phone">
+                            <label for "phone-number" id="phone-number">Phone:</label>
+                            <input id="phone-number" type="number" placeholder="281-330-8004" required>
+                    </div>
+
+                    <div class="contact">
+                        <p class="prefer">Preference:</p>
+                        <input type="radio" id="phone-alert" name="alert" value="phone-alert">
+                        <label for="phone-alert">Phone</label>
+                        <input type="radio" id="email-alert" name="alert" value="email-alert">
+                        <label for="email-alert">Email</label>             
+                   </div> 
+               </div>
+
+
+
+
+
+            <div class="stomach">
+                   <div class="pair-1">
+                           <div class="number">
+                                  <label for "number" id="number-label">I want </label>
+                                  <input id="number" type="number" min="1" max="100" placeholder="50" required>
+                            </div>
+
+
+                           <div class="dropdown-1">
+                                   
+                                   <select id="dropdown" name="boats-1">
+                                            <option value="sushi-boat">Sushi Boats</option>
+                                            <option value="no-eel">Sushi Boats w/ no eel</option>
+                                            <option value="veggie-boat">Veggie-Boats</option>
+                                            
+                                     </select>
+                                     <label for="dropdown">40 pcs per boat</label> 
+                            </div>
+                   </div>
+                   <div class="line-1"></div>
+                   <div class="pair-2">
+                          <div class="number">
+                                   <label for "number" id="number-label">I want </label>
+                                   <input id="number" type="number" min="1" max="100" placeholder="0">
+                             </div>
+
+
+                           <div class="dropdown-2">
+                                    
+                                    <select id="dropdown" name="boats-2">
+                                              
+                                              <option value="no-eel">Sushi Boats w/ no eel</option>
+                                              <option value="sushi-boat">Sushi Boats</option>
+                                              <option value="veggie-boat">Veggie-Boats</option>
+                                              
+                                     </select>
+                                     <label for="dropdown">40 pcs per boat</label>
+                             </div>
+                                   
+                    </div>
+
+                    <div class="line-2"></div>
+                    
+
+                    
+                    <div class="pair-3">
+                        <div class="number">
+                                 <label for "number-3" id="number-label">I want </label>
+                                 <input id="number-3" type="number" min="1" max="100" placeholder="0">
+                           </div>
+
+
+                         <div class="dropdown-3">
+                                  <select id="dropdown" name="boats-3">
+                                            <option value="veggie-boat">Veggie-Boats</option>
+                                            <option value="sushi-boat">Sushi Boats</option>
+                                            <option value="no-eel">Sushi Boats w/ no eel</option>
+                                                                                      
+                                   </select>
+                                   <label for="dropdown">40 pcs per boat</label>
+                           </div>
+                                 
+                  </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+                <div class="checkbox-1">
+                                <div class="choose"><p class="please">*Please choose your sides & note that sides are served in porportion to your total boat order.</p></div>
+                               <div class=five-sides>
+                                      <div class="miso side">
+                                                <input type="checkbox" id="miso" name="miso" value="miso">
+                                                <label for="miso">Miso Soup</label>
+                                         </div>
+
+
+                                      <div class="salad side"> 
+                                               <input type="checkbox" id="salad" name="salad" value="salad">
+                                               <label for="salad">Edamame Salad</label>
+                                         </div>
+
+
+                                       <div class="tempura side">
+                                               <input type="checkbox" id="tempura" name="tempura" value="tempura">
+                                               <label for="tempura">Crab Tempura</label>
+                                         </div>
+
+
+                                      <div class="banana side">
+                                               <input type="checkbox" id="banana" name="banana" value="banana">
+                                               <label for="banana">Deep-Fried Bananas</label>
+                                          </div>
+
+
+                                     <div class="egg side">
+                                              <input type="checkbox" id="egg-rolls" name="egg-rolls" value="egg-rolls">
+                                              <label for="egg-rolls">Egg-rolls</label>
+                                         </div>
+                                </div>
+                      
+                 </div>             
+                           
+                                     
+                              
+                
+                <div class="radio">
+                           <p class="get">How do you want to roll?</p>
+                           <input type="radio" id="pick-up" name="get" value="pick-up">
+                           <label for="pick-up">Pick-Up</label>
+                           <input type="radio" id="delivery" name="get" value="delivery">
+                           <label for="delivery">Delivery</label>
+                           <input type="radio" id="cater" name="get" value="cater">
+                           <label for="cater">Catering</label>
+                           
+                </div>
+
+
+                                       
+
+          
+       
+                <div class="text">
+                           <label for="w3review">Order Notes:</label>
+                           <textarea id="w3review" name="w3review" rows="3" cols="50">Please include any allergies, delivery instructions & any other special concerns you may have with these notes.
+                     </textarea>
+                </div>
+
+               <div id="button">
+                            <input class="button" id="submit" type="submit" value="Let's Eat!">
+               </div>
+      </form>  
+
+    </div>
+    <footer>
+        <p class="foot">Made with love in the <a href="#">Solar-Studio</a>.</p>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+    
+</body>
+</html>

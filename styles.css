@@ -1,8 +1,13 @@
+ body {
+     background-color: black;
+ }
+ 
+ 
  .main {
      display: flex;
      justify-content: center;
      align-items:center;
-     height:90vh;
+     height:100vh;
      width:100vw;
      background-image: url('sushiboat.jpg');
      background-repeat: no-repeat;
@@ -131,6 +136,11 @@ input {
     flex-direction: column;
 }
 
+.please  {
+    margin:0;
+    
+}
+
 .prefer {
     margin: 0 auto;
 }
@@ -157,8 +167,8 @@ input {
     width:33%;
     border-radius:5%;
     border:6px solid black;
-    background-color: #333;
-    color:red;
+    background-color: red;
+    color:black;
     font-size: 1.75rem;
     font-family: 'Inconsolata', monospace;
     
@@ -173,38 +183,56 @@ input {
 
 
 
-footer {
-    background-color: black;
-    width:100%;
-    height:3vh;
-}
 
-.foot {
-    color:seashell;
-    margin:0;
-    
-}
-.foot a {
-    color:red;
-}
+
+
 
 
 
 
 @media only screen and (max-width: 800px) {
 
+
     #survey-form {
-        height:80vh;
-        width:80vw;
+        font-size:1rem;
+        width:20rem;
+    }
+    
+    .clipart img {
+        width:30px;
+        height:30px;
+    }
+    
+    .button {
+        font-size:1rem;
     }
 
-    .pair-3 {
-        visibility: hidden;
+    .choose {
+        font-size:.75rem;
+    }
+       
+    
+    
+    .main {
+        height:100vh;
+        width:100vw;
+    
+    }
+    
+    .ft {
+        font-size:2.5rem;
     }
 
-    .form-head {
-        visibility: hidden;
+    .text {
+        font-size:.75rem;
     }
+    
+    textarea {
+        width:80%;
+    }
+    
+
+      
 
 
 

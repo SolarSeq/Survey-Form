@@ -228,6 +228,10 @@ input {
     textarea {
         width:80%;
     }
+
+    .line-1, .line-2 {
+        width:80%;
+    }
   
 
 }

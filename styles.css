@@ -110,16 +110,11 @@ input {
 
 .line-1, .line-2 {
     height:3px;
-    background: linear-gradient(35deg, red, orange, black);
+    background: linear-gradient(35deg, red, orange, yellow, green);
     margin: 6px;
     width:50%;
     align-self: center;
 }
-
-.line-2 {
-    background: linear-gradient(35deg, black, orange, red);
-}
-
 
 
 .checkbox-1 {

@@ -180,15 +180,18 @@ input {
     
 }
 
+.hidden {
+    position:;
+    color:blanchedalmond;
+    margin:0 auto;
+    width:100%;
 
+}
 
-
-
-
-
-
-
-
+.hidden p, .hidden h1 {
+    margin:0;
+    font-size:.000000003rem;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -230,14 +233,6 @@ input {
     textarea {
         width:80%;
     }
-    
-
-      
-
-
-
-
-
-
+  
 
 }
